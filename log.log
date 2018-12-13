@@ -1,0 +1,79 @@
+unodit - unodit - INFO - 
+Version:  unodit 0.7.0      Created:  Wed Dec 12 22:20:01 2018
+
+unodit directory = D:\LibreOffice\program\unodit
+---------------------------------------------------------------------
+mode      = script_all
+pydir     = D:\Programming\Python\caecus
+xdlfile   = D:\Programming\Python\caecus\Imprimir_com_CAECUS.xdl
+app name  = Caecus_print
+panel     = 2
+indent    = 4
+---------------------------------------------------------------------
+
+unodit - mode_script_convert - INFO - 
+MODE: ---------- script_convert ----------------------------------
+extractor - __init__ - INFO - NEW LOGGER: unodit.extractor.ContextGenerator
+extractor - get_namespaces - INFO - ['window', 'text', 'combobox', 'button']
+extractor - get_xdl_context - INFO - {'PortaSerial': {'height': '11', 'model': 'combobox', 'spin': 'true', 'top': '100', 'left': '8', 'id': 'PortaSerial', 'tab-index': '0', 'width': '70'}, 'Imprimir_com_CAECUS': {'style-id': '3', 'height': '122', 'id': 'Imprimir_com_CAECUS', 'top': '29', 'left': '85', 'model': 'window', 'width': '166', 'closeable': 'true', 'moveable': 'true'}, 'Label1': {'style-id': '2', 'height': '38', 'tab-index': '3', 'model': 'text', 'top': '60', 'value': 'Selecione a porta em que está conectada a impressora:', 'id': 'Label1', 'multiline': 'true', 'width': '78', 'left': '8'}, 'Titulo': {'style-id': '0', 'height': '50', 'left': '5', 'align': 'center', 'multiline': 'true', 'valign': 'center', 'id': 'Titulo', 'tab-index': '1', 'width': '156', 'value': 'Imprimir em Braille com a impressora CAECUS', 'top': '5', 'model': 'text'}, 'BotaoImprimir': {'style-id': '1', 'height': '32', 'left': '93', 'model': 'button', 'top': '80', 'value': 'Imprimir', 'id': 'BotaoImprimir', 'tab-index': '2', 'width': '66'}}
+extractor - get_namespaces - INFO - ['window', 'text', 'combobox', 'button']
+extractor - get_xdl_context - INFO - {'PortaSerial': {'height': '11', 'model': 'combobox', 'spin': 'true', 'top': '100', 'left': '8', 'id': 'PortaSerial', 'tab-index': '0', 'width': '70'}, 'Imprimir_com_CAECUS': {'style-id': '3', 'height': '122', 'id': 'Imprimir_com_CAECUS', 'top': '29', 'left': '85', 'model': 'window', 'width': '166', 'closeable': 'true', 'moveable': 'true'}, 'Label1': {'style-id': '2', 'height': '38', 'tab-index': '3', 'model': 'text', 'top': '60', 'value': 'Selecione a porta em que está conectada a impressora:', 'id': 'Label1', 'multiline': 'true', 'width': '78', 'left': '8'}, 'Titulo': {'style-id': '0', 'height': '50', 'left': '5', 'align': 'center', 'multiline': 'true', 'valign': 'center', 'id': 'Titulo', 'tab-index': '1', 'width': '156', 'value': 'Imprimir em Braille com a impressora CAECUS', 'top': '5', 'model': 'text'}, 'BotaoImprimir': {'style-id': '1', 'height': '32', 'left': '93', 'model': 'button', 'top': '80', 'value': 'Imprimir', 'id': 'BotaoImprimir', 'tab-index': '2', 'width': '66'}}
+extractor - get_uno_context - INFO - {'PortaSerial': {'Dropdown': 'True', 'Height': 11, 'PositionY': '100', 'model': 'combobox', 'Name': 'PortaSerial', 'PositionX': '8', 'uno_model': 'ComboBox', 'TabIndex': 0, 'Width': 70}, 'Imprimir_com_CAECUS': {'Height': 122, 'PositionY': '29', 'Closeable': 'True', 'model': 'window', 'Name': 'Imprimir_com_CAECUS', 'PositionX': '85', 'uno_model': 'Dialog', 'Width': 166, 'Moveable': 'True'}, 'Label1': {'Height': 38, 'PositionY': '60', 'model': 'text', 'Name': 'Label1', 'PositionX': '8', 'uno_model': 'FixedText', 'Label': 'Selecione a porta em que está conectada a impressora:', 'TabIndex': 3, 'Width': 78}, 'Titulo': {'Height': 50, 'Name': 'Titulo', 'model': 'text', 'PositionY': '5', 'PositionX': '5', 'uno_model': 'FixedText', 'Label': 'Imprimir em Braille com a impressora CAECUS', 'Width': 156, 'TabIndex': 1}, 'BotaoImprimir': {'Height': 32, 'PositionY': '80', 'model': 'button', 'Name': 'BotaoImprimir', 'PositionX': '93', 'uno_model': 'Button', 'Label': 'Imprimir', 'TabIndex': 2, 'Width': 66}}
+generator - __init__ - INFO - NEW LOGGER: unodit.generator.CodeGenerator
+pyuno_generator - __init__ - INFO - NEW LOGGER: unodit.pyuno_generator.PythonGenerator
+pyuno_generator - __init__ - INFO - templates directory: D:\LibreOffice\program\unodit\templates
+pyuno_generator - __init__ - INFO - successfully read all templates for script files
+unodit - mode_script_files - INFO - 
+MODE: ---------- script_files ------------------------------------
+oxt_creator - __init__ - INFO - NEW LOGGER: unodit.oxt_creator.ScriptExtensionFiles
+oxt_creator - ext_meta - INFO - manifest.xml D:\Programming\Python\caecus\META-INF\manifest.xml {'SOURCE': 'src', 'APP_DESCRIPTION': 'description', 'ADD_ON_MENU': 'Addons.xcu', 'APP_TITLE': 'title.txt'}
+oxt_creator - ext_description - INFO - description.xml D:\Programming\Python\caecus\description.xml {'APP_LICENSE_DIR': 'registration', 'APP_LICENSE': 'license.txt', 'EXTENSION_PUBLISHER': 'PublisherName', 'DISPLAY_NAME': 'Caecus_print', 'EXTENSION_IDENTIFIER_DOMAIN': 'my.identifier.value.for.myaddons', 'EXTENSION_MAILTO': 'publisher.name@publisher.com', 'EXTENSION_VERSION': '0.1.0', 'APP_DESCRIPTION': 'description.txt', 'EXTENSION_IDENTIFIER_APP': 'MyAddOn', 'APP_DESCRIPTION_DIR': 'description', 'EXTENSION_PLATFORM': 'all'}
+oxt_creator - app_license - INFO - license file D:\Programming\Python\caecus\registration\license.txt
+oxt_creator - app_description - INFO - app description file D:\Programming\Python\caecus\description\description.txt
+oxt_creator - app_title - INFO - app title file D:\Programming\Python\caecus\description\title.txt
+oxt_creator - ext_add_on_menu - INFO - app add_on_menu file D:\Programming\Python\caecus\Addons.xcu {'SOURCE': 'src', 'INSTALL': 'user:uno_packages', 'OXT_NAME': 'Caecus_print_Devel.oxt', 'EXTENSION_IDENTIFIER_DOMAIN': 'my.identifier.value.for.myaddons', 'TITLE': 'Caecus_print', 'EXEC_FUNCTION': 'Run_Caecus_print', 'EXTENSION_IDENTIFIER_APP': 'MyAddOn', 'EXEC_FILE_NAME': 'Caecus_print.py'}
+unodit - mode_script_oxt - INFO - 
+MODE: ---------- script_oxt --------------------------------------
+oxt_creator - __init__ - INFO - NEW LOGGER: unodit.oxt_creator.CreateScriptExtension
+oxt_creator - create - INFO - oxt: Caecus_print_Devel.oxt
+unodit - unodit - INFO - 
+CONTENT:D:\Programming\Python\caecus directory:
+D:\Programming\Python\caecus\Addons.xcu,
+D:\Programming\Python\caecus\Caecus_print_Devel.oxt,
+D:\Programming\Python\caecus\description.xml,
+D:\Programming\Python\caecus\Imprimir_com_CAECUS.xdl,
+D:\Programming\Python\caecus\log.log,
+D:\Programming\Python\caecus\README.md,
+D:\Programming\Python\caecus\.git\config,
+D:\Programming\Python\caecus\.git\description,
+D:\Programming\Python\caecus\.git\FETCH_HEAD,
+D:\Programming\Python\caecus\.git\HEAD,
+D:\Programming\Python\caecus\.git\index,
+D:\Programming\Python\caecus\.git\packed-refs,
+D:\Programming\Python\caecus\.git\hooks\applypatch-msg.sample,
+D:\Programming\Python\caecus\.git\hooks\commit-msg.sample,
+D:\Programming\Python\caecus\.git\hooks\fsmonitor-watchman.sample,
+D:\Programming\Python\caecus\.git\hooks\post-update.sample,
+D:\Programming\Python\caecus\.git\hooks\pre-applypatch.sample,
+D:\Programming\Python\caecus\.git\hooks\pre-commit.sample,
+D:\Programming\Python\caecus\.git\hooks\pre-push.sample,
+D:\Programming\Python\caecus\.git\hooks\pre-rebase.sample,
+D:\Programming\Python\caecus\.git\hooks\pre-receive.sample,
+D:\Programming\Python\caecus\.git\hooks\prepare-commit-msg.sample,
+D:\Programming\Python\caecus\.git\hooks\update.sample,
+D:\Programming\Python\caecus\.git\info\exclude,
+D:\Programming\Python\caecus\.git\logs\HEAD,
+D:\Programming\Python\caecus\.git\logs\refs\heads\master,
+D:\Programming\Python\caecus\.git\logs\refs\remotes\origin\HEAD,
+D:\Programming\Python\caecus\.git\objects\0d\ce7316e85b7545fdb7bfa7733562cc3fecc2d4,
+D:\Programming\Python\caecus\.git\objects\37\b3b36bde70cec835a443577fb80c573f394cc7,
+D:\Programming\Python\caecus\.git\objects\f5\22dffb3684fd8632f21c4af4907504ba7edd44,
+D:\Programming\Python\caecus\.git\refs\heads\master,
+D:\Programming\Python\caecus\.git\refs\remotes\origin\HEAD,
+D:\Programming\Python\caecus\description\description.txt,
+D:\Programming\Python\caecus\description\title.txt,
+D:\Programming\Python\caecus\META-INF\manifest.xml,
+D:\Programming\Python\caecus\registration\license.txt,
+D:\Programming\Python\caecus\src\Caecus_print.py,
+D:\Programming\Python\caecus\src\pythonpath\Caecus_print_UI.py,
+
