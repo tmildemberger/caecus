@@ -37,7 +37,7 @@ class Caecus_print(Caecus_print_UI):
         Caecus_print_UI.__init__(self)
 
         # --------- my code ---------------------
-        self.DialogModel.Title = "Caecus_print"
+        self.DialogModel.Title = "Imprimir com CAECUS"
         # mri(self.LocalContext, self.DialogContainer)
 
     def myFunction(self):
@@ -67,8 +67,12 @@ class Caecus_print(Caecus_print_UI):
 
 
     def BotaoImprimir_OnClick(self):
-        self.DialogModel.Title = "It's Alive! - BotaoImprimir"
-        self.messageBox("It's Alive! - BotaoImprimir", "Event: OnClick", INFOBOX)
+        self.DialogModel.Title = "Imprimindo"
+        #Doc = XSCRIPTCONTEXT.getDocument()
+        desktop = smgr.createInstanceWithContext( "com.sun.star.frame.Desktop",ctx)
+
+        model = desktop.getCurrentComponent()
+        self.messageBox(Doc.Text, "Event: OnClick", INFOBOX)
         # TODO: not implemented
 
 
